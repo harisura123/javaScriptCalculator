@@ -1,0 +1,289 @@
+@media screen and (max-width: 767px) {
+.calculatorContainer{
+    background-image: linear-gradient(to bottom, lightblue, lightgreen);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorContainer1{
+    background-color: #06083d;
+    min-height: 40vh;
+    min-width: 30vw;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calInput{
+    background-color: #32323b;
+    height: 8vh;
+    width: 22vw;
+    background-size: cover;
+    border: 2px solid #32323b;
+    border-radius: 8px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.ButtonContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+    background-color: #2d2d3a;
+    border: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-shadow:  0px 4px 8px rgba(0,0,0,0.25);
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #3a3a4d;
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.operator{
+    background-color: #eba50e;
+}
+
+.operator:hover{
+    background-color: #ab790e;
+}
+
+.Cbutton{
+    background-color: red;
+}
+
+.Cbutton:hover{
+    background-color: rgb(244, 78, 78);
+}
+
+.Equalbtn{
+    background-color: #27ae60;
+    grid-column: span 2;
+}
+
+.Equalbtn:hover{
+    background-color: #219150;
+}
+}
+
+
+@media screen and ((min-width: 768px) and (max-width: 991px)) {
+.calculatorContainer{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculatorContainer1{
+    background-color: #06083d;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calInput{
+    background-color: #32323b;
+    height: 20vh;
+    width: 80vw;
+    background-size: cover;
+    border: 2px solid #32323b;
+    border-radius: 8px;
+    text-align: right;
+    color: #fff;
+    font-size: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+}
+.ButtonContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #2d2d3a;
+    border: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-shadow:  0px 4px 8px rgba(0,0,0,0.25);
+    border-radius: 12px;
+    height: 10vh;
+    width: 20vw;
+}
+
+button:hover{
+    background-color: #3a3a4d;
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.operator{
+    background-color: #eba50e;
+}
+
+.operator:hover{
+    background-color: #ab790e;
+}
+
+.Cbutton{
+    background-color: red;
+}
+
+.Cbutton:hover{
+    background-color: rgb(244, 78, 78);
+}
+
+.Equalbtn{
+    background-color: #27ae60;
+    grid-column: span 2;
+}
+
+.Equalbtn:hover{
+    background-color: #219150;
+}
+}
+
+
+@media screen and (min-width: 992px) {
+.calculatorContainer{
+    background-image: linear-gradient(to bottom, lightblue, lightgreen);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorContainer1{
+    background-color: #06083d;
+    min-height: 40vh;
+    width: 31vw;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calInput{
+    background-color: #32323b;
+    height: 8vh;
+    width: 22vw;
+    background-size: cover;
+    border: 2px solid #32323b;
+    border-radius: 8px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.ButtonContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+    background-color: #2d2d3a;
+    border: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-shadow:  0px 4px 8px rgba(0,0,0,0.25);
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #3a3a4d;
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.operator{
+    background-color: #eba50e;
+}
+
+.operator:hover{
+    background-color: #ab790e;
+}
+
+.Cbutton{
+    background-color: red;
+}
+
+.Cbutton:hover{
+    background-color: rgb(244, 78, 78);
+}
+
+.Equalbtn{
+    background-color: #27ae60;
+    grid-column: span 2;
+}
+
+.Equalbtn:hover{
+    background-color: #219150;
+}
+}
+
